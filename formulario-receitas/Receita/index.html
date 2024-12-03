@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href=receita.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+</head>
+<body>
+
+    <form action="enviado.html" method="post">
+       
+        <h1>Inscreva a sua receita</h1>
+
+        <label for="nomeReceita"> Nome da Receita:</label>
+        <p>
+
+        </p>
+        <textarea name="nomeReceita" id="" rows="2" cols="50"></textarea>
+       
+        <p>
+             
+        </p>
+
+        <label for="ingredientes"> Ingredientes:</label>
+        
+        <p>
+
+        </p>
+
+        <textarea name="ingredientes" id="" rows="6" cols="50"></textarea>
+
+        <p>
+             
+        </p>
+
+        <label for="modoPreparo"> Modo de Preparo:</label>
+        
+        <p>
+
+        </p>
+
+        <textarea name="ingredientes" id="" rows="6" cols="50"></textarea>
+
+        <p>
+
+        </p>
+
+        <label for="time" class="time">Tempo de Preparo:</label>
+        <input type="time"name= "tempo" id="tempo"
+        class="time"> <br>
+
+        <p>
+
+        </p>
+
+        <label>Categoria:</label>
+        <select name="objetivo" required>
+            
+            <option value="">Selecione...</option>
+           
+            <option value="doce"> Doce</option>
+            
+            <option value="salgado"> Salgados</option>
+            
+            <option value="massa"> Massa</option>
+            
+            <option value="caldos"> Caldos</option>
+
+            <option value="outros"> Outros...</option>
+            </select>
+            <br>
+            
+            <p>
+
+            </p>
+
+        <label> Dificuldade:</label><br>
+        <input class="emlinha" type="radio" name="plano"
+        id="facil">
+        
+        <label class="emlinha" for="facil"> Fácil</label>
+        <input class="emlinha" type="radio" name="plano"
+        id="medio">
+        
+        <label class="emlinha" for="mensal"> Médio</label>
+        <input class="emlinha" type="radio" name="plano"
+        id="dificil">
+
+        <label class="emlinha" for="anual"> Difícil</label>
+        <br><br>
+        
+        <label for="foto"> Foto da Receita:</label>
+        <input type="file" name="foto" id="foto" required><br>
+
+        <p>
+
+        </p>
+
+        <label for="email"> Email de Contato:</label>
+        <input type="email" name="email" id="email" required
+        placeholder="Exemplo: email@email.com"><br>
+        <p>
+
+        </p>
+        <label for="nomeReceita"> Nome da Receita:</label>
+        <p>
+
+        </p>
+        <textarea name="nomeReceita" id="" rows="6" cols="50"></textarea>
+
+        <p>
+
+        </p>
+
+            <input type="submit" name="enviar" value="Enviar"
+            id="enviar">
+
+            <p>
+                <input type="submit" value="Enviar (Simulação)" id="enviar">
+            </p>
+
+        </select>
+
+    </form>
+
+</body>
+</html>
